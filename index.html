@@ -1,0 +1,33 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Preprocessor</title>
+    <!-- 
+        link to the style.less (your style sheet) and 
+        include the JS preprocessor that translates LESS to CSS -->
+    <link
+      rel="stylesheet/less"
+      type="text/css"
+      href="./less/styles.less"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/less"></script>
+    <!-- Other options include use of node package manager (npm) to install Less and then compile the source -->
+  </head>
+  <body>
+    <nav class = "nav">
+        <h2>Navigation Bar</h2>
+    </nav>
+    <div class = "boxContainer">
+        <div class="red"></div>
+        <div class="blue"></div>
+        <div class="green"></div>
+        <div class="purple"></div>
+    </div>
+    <footer class = "footer"><h3>Footer</h3></footer>
+  </body>
+</html>
